@@ -1,0 +1,3 @@
+﻿  Source.cpp
+f:\data\unich\aisd\3_week\3_week\source.cpp(6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  3_Week.vcxproj -> F:\Data\Unich\AiSD\3_Week\Debug\3_Week.exe

@@ -1,0 +1,3 @@
+﻿  Source.cpp
+f:\data\unich\aisd\pugalo\pugalo\source.cpp(60): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Pugalo.vcxproj -> F:\Data\Unich\AiSD\Pugalo\Debug\Pugalo.exe

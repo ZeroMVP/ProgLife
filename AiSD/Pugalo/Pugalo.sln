@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pugalo", "Pugalo\Pugalo.vcxproj", "{0DF15964-F6DA-4416-9071-F7CA19D1E9A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF15964-F6DA-4416-9071-F7CA19D1E9A6}.Debug|x64.ActiveCfg = Debug|x64
+		{0DF15964-F6DA-4416-9071-F7CA19D1E9A6}.Debug|x64.Build.0 = Debug|x64
+		{0DF15964-F6DA-4416-9071-F7CA19D1E9A6}.Debug|x86.ActiveCfg = Debug|Win32
+		{0DF15964-F6DA-4416-9071-F7CA19D1E9A6}.Debug|x86.Build.0 = Debug|Win32
+		{0DF15964-F6DA-4416-9071-F7CA19D1E9A6}.Release|x64.ActiveCfg = Release|x64
+		{0DF15964-F6DA-4416-9071-F7CA19D1E9A6}.Release|x64.Build.0 = Release|x64
+		{0DF15964-F6DA-4416-9071-F7CA19D1E9A6}.Release|x86.ActiveCfg = Release|Win32
+		{0DF15964-F6DA-4416-9071-F7CA19D1E9A6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CE11749-8E00-4236-8CF5-43E6DF2EFE47}
+	EndGlobalSection
+EndGlobal

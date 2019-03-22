@@ -1,0 +1,3 @@
+﻿  Source.cpp
+f:\data\unich\aisd\skobposl\skobposl\source.cpp(130): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  SkobPosl.vcxproj -> F:\Data\Unich\AiSD\SkobPosl\Debug\SkobPosl.exe

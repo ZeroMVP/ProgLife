@@ -1,0 +1,5 @@
+﻿  Source.cpp
+f:\data\unich\aisd\1_week\1_weekc\1_weekc\source.cpp(125): warning C4326: return type of 'main' should be 'int' instead of 'void'
+f:\data\unich\aisd\1_week\1_weekc\1_weekc\source.cpp(150): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+f:\data\unich\aisd\1_week\1_weekc\1_weekc\source.cpp(152): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  1_WeekC.vcxproj -> F:\Data\Unich\AiSD\1_Week\1_WeekC\Debug\1_WeekC.exe

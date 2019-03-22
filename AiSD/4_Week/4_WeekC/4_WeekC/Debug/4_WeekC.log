@@ -1,0 +1,3 @@
+﻿  Source.cpp
+f:\data\unich\aisd\4_week\4_weekc\4_weekc\source.cpp(8): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  4_WeekC.vcxproj -> F:\Data\Unich\AiSD\4_Week\4_WeekC\Debug\4_WeekC.exe

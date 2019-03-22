@@ -1,0 +1,3 @@
+﻿  Source.cpp
+f:\data\unich\aisd\heighttree\heighttree\source.cpp(24): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  HeightTree.vcxproj -> F:\Data\Unich\AiSD\HeightTree\Debug\HeightTree.exe

@@ -1,0 +1,3 @@
+﻿  Source.cpp
+f:\data\unich\aisd\binsearch\binsearch\source.cpp(96): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  BinSearch.vcxproj -> F:\Data\Unich\AiSD\BinSearch\Debug\BinSearch.exe

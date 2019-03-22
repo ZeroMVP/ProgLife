@@ -1,0 +1,3 @@
+﻿  Source.cpp
+f:\data\unich\aisd\mergesort\mergesort\source.cpp(62): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Mergesort.vcxproj -> F:\Data\Unich\AiSD\Mergesort\Debug\Mergesort.exe

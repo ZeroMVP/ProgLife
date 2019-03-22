@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkobPosl", "SkobPosl\SkobPosl.vcxproj", "{23EE799C-9B04-471D-B05C-2FBAEC5530C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23EE799C-9B04-471D-B05C-2FBAEC5530C1}.Debug|x64.ActiveCfg = Debug|x64
+		{23EE799C-9B04-471D-B05C-2FBAEC5530C1}.Debug|x64.Build.0 = Debug|x64
+		{23EE799C-9B04-471D-B05C-2FBAEC5530C1}.Debug|x86.ActiveCfg = Debug|Win32
+		{23EE799C-9B04-471D-B05C-2FBAEC5530C1}.Debug|x86.Build.0 = Debug|Win32
+		{23EE799C-9B04-471D-B05C-2FBAEC5530C1}.Release|x64.ActiveCfg = Release|x64
+		{23EE799C-9B04-471D-B05C-2FBAEC5530C1}.Release|x64.Build.0 = Release|x64
+		{23EE799C-9B04-471D-B05C-2FBAEC5530C1}.Release|x86.ActiveCfg = Release|Win32
+		{23EE799C-9B04-471D-B05C-2FBAEC5530C1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D8BD37D-937D-48B6-8685-ECCE4C1C9862}
+	EndGlobalSection
+EndGlobal
