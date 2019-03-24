@@ -1,0 +1,5 @@
+﻿  Source.cpp
+f:\projects\repositories\proglife\aisd\findstring\findstring\source.cpp(15): warning C4326: return type of 'main' should be 'int' instead of 'void'
+f:\projects\repositories\proglife\aisd\findstring\findstring\source.cpp(26): warning C4018: '<': signed/unsigned mismatch
+f:\projects\repositories\proglife\aisd\findstring\findstring\source.cpp(30): warning C4018: '<': signed/unsigned mismatch
+  FindString.vcxproj -> F:\Projects\Repositories\ProgLife\AiSD\FindString\Debug\FindString.exe
