@@ -1,6 +1,6 @@
 ﻿  Source.cpp
-f:\projects\repositories\proglife\aisd\queuemin\queuemin\source.cpp(18): warning C4326: return type of 'main' should be 'int' instead of 'void'
-f:\projects\repositories\proglife\aisd\queuemin\queuemin\source.cpp(41): warning C4018: '<': signed/unsigned mismatch
-f:\projects\repositories\proglife\aisd\queuemin\queuemin\source.cpp(81): warning C4018: '<': signed/unsigned mismatch
-f:\projects\repositories\proglife\aisd\queuemin\queuemin\source.cpp(83): warning C4101: 'yello': unreferenced local variable
+f:\projects\repositories\proglife\aisd\queuemin\queuemin\source.cpp(24): warning C4326: return type of 'main' should be 'int' instead of 'void'
+f:\projects\repositories\proglife\aisd\queuemin\queuemin\source.cpp(91): warning C4018: '<': signed/unsigned mismatch
+f:\projects\repositories\proglife\aisd\queuemin\queuemin\source.cpp(93): warning C4101: 'yello': unreferenced local variable
+f:\projects\repositories\proglife\aisd\queuemin\queuemin\source.cpp(44): warning C4101: 'j': unreferenced local variable
   Queuemin.vcxproj -> F:\Projects\Repositories\ProgLife\AiSD\Queuemin\Debug\Queuemin.exe

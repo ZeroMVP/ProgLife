@@ -44,7 +44,8 @@ void main(void) {
 			int j;
 			read >> t;
 			my_stack.push_back(t);
-			auto result1 = find_if(my_min.begin(), my_min.end(), );
+			auto low = lower_bound(my_min.begin(), my_min.end(), t);
+			my_min.insert(low, t);
 			/*for(j = 0; j < my_min.size(); j++)
 			{
 				if (t < my_min[j])
@@ -66,9 +67,11 @@ void main(void) {
 		{
 			int value = my_stack[0];
 			my_stack.erase(my_stack.begin());
-			vector<int>::iterator iter = std::find(my_min.begin(), my_min.end(), value);
-			if (iter != my_min.end())
-				my_min.erase(iter);
+			auto low = lower_bound(my_min.begin(), my_min.end(), value);
+			my_min.erase(low);
+			//vector<int>::iterator iter = std::find(my_min.begin(), my_min.end(), value);
+			//if (iter != my_min.end())
+			//	my_min.erase(iter);
 			//auto it = find(my_min.begin(), my_min.end(), value);
 			//if(it != my_stack.end())
 			//	my_min.erase(it);

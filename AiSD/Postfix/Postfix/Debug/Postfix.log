@@ -1,0 +1,3 @@
+﻿  Source.cpp
+f:\projects\repositories\proglife\aisd\postfix\postfix\source.cpp(12): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Postfix.vcxproj -> F:\Projects\Repositories\ProgLife\AiSD\Postfix\Debug\Postfix.exe
