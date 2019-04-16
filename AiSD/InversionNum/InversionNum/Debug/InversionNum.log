@@ -1,0 +1,3 @@
+﻿  Source.cpp
+f:\projects\repositories\proglife\aisd\inversionnum\inversionnum\source.cpp(73): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  InversionNum.vcxproj -> F:\Projects\Repositories\ProgLife\AiSD\InversionNum\Debug\InversionNum.exe

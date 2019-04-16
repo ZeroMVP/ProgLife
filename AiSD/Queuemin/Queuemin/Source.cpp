@@ -13,13 +13,7 @@ using namespace std;
 #include <string>
 using namespace std;
 
-bool condition(int a, int b)
-{
-	if (a <= b)
-		return 1;
-	else
-		return 0;
-}
+
 
 void main(void) {
 	int n;
@@ -44,8 +38,8 @@ void main(void) {
 			int j;
 			read >> t;
 			my_stack.push_back(t);
-			auto low = lower_bound(my_min.begin(), my_min.end(), t);
-			my_min.insert(low, t);
+			//auto low = lower_bound(my_min.begin(), my_min.end(), t);
+			//my_min.insert(low, t);
 			/*for(j = 0; j < my_min.size(); j++)
 			{
 				if (t < my_min[j])
@@ -60,15 +54,16 @@ void main(void) {
 		}
 		else if (quest == '?')
 		{
-			file << my_min[0];
+			auto minIt = min_element(my_stack.begin(), my_stack.end());
+			file << *minIt;
 			file << "\n";
 		}
 		else
 		{
 			int value = my_stack[0];
 			my_stack.erase(my_stack.begin());
-			auto low = lower_bound(my_min.begin(), my_min.end(), value);
-			my_min.erase(low);
+			//auto low = lower_bound(my_min.begin(), my_min.end(), value);
+			//my_min.erase(low);
 			//vector<int>::iterator iter = std::find(my_min.begin(), my_min.end(), value);
 			//if (iter != my_min.end())
 			//	my_min.erase(iter);

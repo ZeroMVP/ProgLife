@@ -1,3 +1,4 @@
 ﻿  Source.cpp
-f:\data\unich\aisd\binsearch\binsearch\source.cpp(96): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  BinSearch.vcxproj -> F:\Data\Unich\AiSD\BinSearch\Debug\BinSearch.exe
+f:\projects\repositories\proglife\aisd\binsearch\binsearch\source.cpp(98): warning C4326: return type of 'main' should be 'int' instead of 'void'
+f:\projects\repositories\proglife\aisd\binsearch\binsearch\source.cpp(81): warning C4715: 'nenorm': not all control paths return a value
+  BinSearch.vcxproj -> F:\Projects\Repositories\ProgLife\AiSD\BinSearch\Debug\BinSearch.exe

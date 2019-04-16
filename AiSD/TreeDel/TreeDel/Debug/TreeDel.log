@@ -1,5 +1,3 @@
 ﻿  Source.cpp
-f:\data\unich\aisd\treedel\treedel\source.cpp(34): warning C4553: '==': operator has no effect; did you intend '='?
-f:\data\unich\aisd\treedel\treedel\source.cpp(35): warning C4553: '==': operator has no effect; did you intend '='?
-f:\data\unich\aisd\treedel\treedel\source.cpp(40): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  TreeDel.vcxproj -> F:\Data\Unich\AiSD\TreeDel\Debug\TreeDel.exe
+f:\projects\repositories\proglife\aisd\treedel\treedel\source.cpp(55): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  TreeDel.vcxproj -> F:\Projects\Repositories\ProgLife\AiSD\TreeDel\Debug\TreeDel.exe

@@ -1,0 +1,3 @@
+﻿  Source.cpp
+f:\projects\repositories\proglife\aisd\binhack\binhack\source.cpp(10): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  BinHack.vcxproj -> F:\Projects\Repositories\ProgLife\AiSD\BinHack\Debug\BinHack.exe

@@ -5,6 +5,7 @@ using namespace std;
 
 int *ar;
 int *tos;
+int *br;
 
 int norm(int left, int right, int key) {
 	while (!(left >= right))
@@ -69,13 +70,14 @@ int lefts(int index, int key)
 	return mid;
 }
 
-int rights(int index, int key)
-{
-	while (ar[index + 1] == key)
-	{
-		index++;
-	}
-	return index;
+int nenorm(int left, int right, int key) {
+	if (ar[right] == key && ar[right + 1] != key)
+		return left;
+	int mid = (left + right) / 2;
+	if (ar[mid] == key)
+		nenorm(mid, right, key);
+	else
+		nenorm(left, mid, key);
 }
 
 /*void main(void)
@@ -102,9 +104,13 @@ void main(void) {
 	ifstream read("input.txt");
 	read >> n;
 	ar = new int[n];
+	br = new int[n];
 	for (int i = 0; i < n; i++)
 	{
-		read >> ar[i];
+		int q;
+		read >> q;
+		ar[i] = q;
+		br[n - i - 1] = q;
 	}
 	read >> p;
 	tos = new int[p];
@@ -140,7 +146,7 @@ void main(void) {
 		int index = norm(left, right, tos[i]);
 		if (index != -1)
 		{
-			int righti = rights(index, tos[i]) + 1;
+			int righti = nenorm(left, right, tos[i]);
 			file << index + 1 << ' ' << righti << '\n';
 		}
 		else
