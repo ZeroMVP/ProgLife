@@ -1,0 +1,5 @@
+﻿  Source.cpp
+f:\projects\repositories\proglife\aisd\prefix\prefix\source.cpp(88): warning C4326: return type of 'main' should be 'int' instead of 'void'
+f:\projects\repositories\proglife\aisd\prefix\prefix\source.cpp(101): warning C4018: '<': signed/unsigned mismatch
+f:\projects\repositories\proglife\aisd\prefix\prefix\source.cpp(94): warning C4101: 'data': unreferenced local variable
+  Prefix.vcxproj -> F:\Projects\Repositories\ProgLife\AiSD\Prefix\Debug\Prefix.exe
