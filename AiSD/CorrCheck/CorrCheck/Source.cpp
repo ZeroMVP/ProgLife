@@ -7,74 +7,108 @@ using namespace std;
 
 
 
+//int *tr;
+int flag = 0;
+vector<int> tr;
+
+void check(int ind, int min, int max)
+{
+	int value = tr[ind];
+	if (value == 0)
+	{
+		return;
+	}
+	if ((value < min) || (value > max))
+	{
+		flag = 1;
+		return;
+	}
+	else
+	{
+		int a = tr[ind + 1];
+		int b = tr[ind + 2];
+		if (a != 0)
+		{
+			check((3 * a - 2), min, value);
+		}
+		if (b != 0)
+		{
+			check((3 * b - 2), value, max);
+		}
+		return;
+	}
+}
+
+
+/*
+void main(void)
+{
+	ifstream read("input.txt");
+	string s;
+	string ss;
+	string answer;
+	int num = 0;
+	char data;
+	getline(read, s);
+	getline(read, ss);
+	int s_len = s.length();
+	s += "#";
+	s += ss;
+	int *b = prefix(s);
+	for (int i = 0; i < (s.length()); i++)
+	{
+	if (b[i] == s_len)
+	{
+	num++;
+	answer += to_string(i - 2 * s_len + 1);
+	answer += " ";
+	}
+
+	}
+	read.close();
+	ofstream file;
+	file.open("output.txt");
+	file << to_string(num);
+	file << "\n";
+	file << answer;
+	file.close();
+}
+*/
 
 void main(void)
 {
-	vector<int> tree;
 	int n;
 	int a;
 	ifstream read("input.txt");
 	read >> n;
+	if (n == 0)
+	{
+		ofstream file("output.txt");
+		file << "YES";
+		file.close();
+		return;
+	}
 	for (int i = 0; i < n; i++)
 	{
 		read >> a;
-		tree.insert(tree.begin(), a);
+		tr.insert(tr.end(), a);
 		read >> a;
-		tree.insert(tree.begin(), a);
+		tr.insert(tr.end(), a);
 		read >> a;
-		tree.insert(tree.begin(), a);
+		tr.insert(tr.end(), a);
 	}
-	tree.insert(tree.begin(), 0);
-	for (int i = 1; i < n; i = i + 3)
-	{
-
-	}
-		string symbol;
-		read >> symbol;
-		if (symbol == "+")
-		{
-			int a = stack[0];
-			int b = stack[1];
-			a = a + b;
-			stack.erase(stack.begin());
-			stack.erase(stack.begin());
-			stack.insert(stack.begin(), a);
-		}
-		else if (symbol == "-")
-		{
-			int a = stack[0];
-			int b = stack[1];
-			a = b - a;
-			stack.erase(stack.begin());
-			stack.erase(stack.begin());
-			stack.insert(stack.begin(), a);
-		}
-		else if (symbol == "*")
-		{
-			int a = stack[0];
-			int b = stack[1];
-			a = a * b;
-			stack.erase(stack.begin());
-			stack.erase(stack.begin());
-			stack.insert(stack.begin(), a);
-		}
-		else if (symbol == "/")
-		{
-			int a = stack[0];
-			int b = stack[1];
-			a = b / a;
-			stack.erase(stack.begin());
-			stack.erase(stack.begin());
-			stack.insert(stack.begin(), a);
-		}
-		else
-		{
-			int symbyl = stoi(symbol);
-			stack.insert(stack.begin(), symbyl);
-		}
-	}
+	tr.insert(tr.begin(), 0);
+	//tr[0] = 0;
+	check(1, -99999999999, 100000000000);
 	read.close();
 	ofstream file("output.txt");
-	file << stack[0];
+	if (flag == 0)
+	{
+		file << "YES";
+	}
+	else
+	{
+		file << "NO";
+	}
 	file.close();
 }

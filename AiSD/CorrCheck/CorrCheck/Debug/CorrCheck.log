@@ -1,0 +1,3 @@
+﻿  Source.cpp
+f:\projects\repositories\proglife\aisd\corrcheck\corrcheck\source.cpp(79): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  CorrCheck.vcxproj -> F:\Projects\Repositories\ProgLife\AiSD\CorrCheck\Debug\CorrCheck.exe
