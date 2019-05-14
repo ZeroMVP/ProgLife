@@ -1,3 +1,5 @@
 ﻿  Source.cpp
 f:\projects\repositories\proglife\aisd\corrcheck\corrcheck\source.cpp(79): warning C4326: return type of 'main' should be 'int' instead of 'void'
+f:\projects\repositories\proglife\aisd\corrcheck\corrcheck\source.cpp(102): warning C4305: 'argument': truncation from '__int64' to 'int'
+f:\projects\repositories\proglife\aisd\corrcheck\corrcheck\source.cpp(102): warning C4309: 'argument': truncation of constant value
   CorrCheck.vcxproj -> F:\Projects\Repositories\ProgLife\AiSD\CorrCheck\Debug\CorrCheck.exe

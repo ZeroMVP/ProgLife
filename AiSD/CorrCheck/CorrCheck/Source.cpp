@@ -14,10 +14,10 @@ vector<int> tr;
 void check(int ind, int min, int max)
 {
 	int value = tr[ind];
-	if (value == 0)
+	/*if (value == 0)
 	{
 		return;
-	}
+	}*/
 	if ((value < min) || (value > max))
 	{
 		flag = 1;
